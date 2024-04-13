@@ -5,25 +5,22 @@
 	"name": "Arst Motion Blur",
 	"description": "The ultimate motion blur mod, making your game look super smooth.",
 	"authors": [
-		"arst"
+		"arst (zccmczh@gmail.com)"
 	],
 	"contact": {
 		"sources": "https://github.com/arstnei0/arst-motion-blur"
 	},
-	"license": "CC0-1.0",
-	"icon": "assets/arst-motion-blur/icon.png",
+	"license": "MIT",
+	"icon": "assets/motionblur/icon.png",
 	"environment": "*",
 	"entrypoints": {
-		"main": [
-			"com.arstmotionblur.ArstMotionBlur"
-		],
+		"main": [],
 		"client": [
 			"com.arstmotionblur.ArstMotionBlurClient"
 		],
 		"modmenu": [ "com.arstmotionblur.ArstMotionBlurModMenu" ]
 	},
 	"mixins": [
-		"arst-motion-blur.mixins.json",
 		{
 			"config": "arst-motion-blur.client.mixins.json",
 			"environment": "client"

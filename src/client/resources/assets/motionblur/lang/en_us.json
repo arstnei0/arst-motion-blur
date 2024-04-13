@@ -1,3 +1,8 @@
 {
-  "arst-motion-blur.midnightconfig.title": "Arst Motion Blur Config"
+  "category.arst-motion-blur.blur": "Arst Motion Blur",
+  "key.arst-motion-blur.toggle": "Toggle Motion Blur",
+  "key.arst-motion-blur.increase": "Increase Motion Blur Strength",
+  "key.arst-motion-blur.decrease": "Decrease Motion Blur Strength",
+  "arst-motion-blur.midnightconfig.title": "Arst Motion Blur Config",
+  "arst-motion-blur.midnightconfig.keybindHelp": "You can set keybinds for toggling motion blur and adjusting the blur strength in the keybinds menu."
 }
