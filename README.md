@@ -1,7 +1,5 @@
 # Arst Motion Blur
 
-![Arst Motion Example Image](https://raw.githubusercontent.com/arstnei0/arst-motion-blur/main/example.gif)
-
 This mod adds [motion blur](https://en.wikipedia.org/wiki/Motion_blur) effect to Minecraft. Requires [MidnightLib](https://modrinth.com/mod/midnightlib) and [Satin API](https://modrinth.com/mod/satin-api).
 
 You can enable or disable motion blur and adjust the blur strength with [Mod Menu Mod](https://modrinth.com/mod/modmenu). Three customizable keybinds are also added:
