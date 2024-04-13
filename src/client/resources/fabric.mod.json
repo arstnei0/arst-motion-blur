@@ -1,40 +1,36 @@
 {
-	"schemaVersion": 1,
-	"id": "arst-motion-blur",
-	"version": "${version}",
-	"name": "Arst Motion Blur",
-	"description": "The ultimate motion blur mod, making your game look super smooth.",
-	"authors": [
-		"arst (zccmczh@gmail.com)"
-	],
-	"contact": {
-		"sources": "https://github.com/arstnei0/arst-motion-blur"
-	},
-	"license": "MIT",
-	"icon": "assets/motionblur/icon.png",
-	"environment": "*",
-	"entrypoints": {
-		"main": [],
-		"client": [
-			"com.arstmotionblur.ArstMotionBlurClient"
-		],
-		"modmenu": [ "com.arstmotionblur.ArstMotionBlurModMenu" ]
-	},
-	"mixins": [
-		{
-			"config": "arst-motion-blur.client.mixins.json",
-			"environment": "client"
-		}
-	],
-	"depends": {
-		"fabricloader": "*",
-		"minecraft": ">=1.19",
-		"java": ">=17",
-		"fabric-api": "*",
-		"satin": "*",
-		"midnightlib": "*"
-	},
-	"suggests": {
-		"modmenu": "*"
-	}
+  "schemaVersion": 1,
+  "id": "arst-motion-blur",
+  "version": "0.1.0",
+  "name": "Arst Motion Blur",
+  "description": "The ultimate motion blur mod, making your game look super smooth.",
+  "authors": [
+    "arst (zccmczh@gmail.com)"
+  ],
+  "contact": {
+    "sources": "https://github.com/arstnei0/arst-motion-blur"
+  },
+  "license": "MIT",
+  "icon": "assets/motionblur/icon.png",
+  "environment": "*",
+  "entrypoints": {
+    "main": [],
+    "client": [
+      "com.arstmotionblur.ArstMotionBlurClient"
+    ],
+    "modmenu": [
+      "com.arstmotionblur.ArstMotionBlurModMenu"
+    ]
+  },
+  "mixins": [],
+  "depends": {
+    "fabricloader": "*",
+    "minecraft": ">=1.20",
+    "java": "*",
+    "satin": "*",
+    "midnightlib": "*"
+  },
+  "suggests": {
+    "modmenu": "*"
+  }
 }
